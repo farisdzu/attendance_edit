@@ -65,7 +65,7 @@ class HomeScreen extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                   builder: (context) =>
-                                      const AttendanceScreen()));
+                                      const AttendScreen()));
                         }),
                     _buildMenuCard(
                         icon: Icons.beach_access_rounded,
@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                   builder: (context) =>
-                                      const AttendanceScreen()));
+                                      const AttendScreen()));
                         }),
                     _buildMenuCard(
                         icon: Icons.history_edu_rounded,
@@ -87,7 +87,7 @@ class HomeScreen extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                   builder: (context) =>
-                                      const AttendanceScreen()));
+                                      const AttendScreen()));
                         }),
                     _buildMenuCard(
                         icon: Icons.logout,
